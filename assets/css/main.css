@@ -128,7 +128,9 @@ q {
 blockquote:before,
 blockquote:after,
 q:before,
-q:after {
+We break down baseball’s rhythm with insights on pitchers,
+clutch hits,
+and the moments that make every inning count. q:after {
 	content: '';
 	content: none;
 }
@@ -2121,6 +2123,7 @@ header.major:after {
 
 header.major h2 {
 	margin: 0;
+	color: black;
 }
 
 header.major p {
@@ -2309,6 +2312,8 @@ textarea {
 
 .image img {
 	display: block;
+	width: 100%;
+	height: 100%;
 }
 
 .image.fit {
@@ -2718,7 +2723,7 @@ input[type="button"].small,
 
 .box {
 	background: #ffffff;
-	border: solid 1px rgba(224, 224, 224, 0.75);
+	border: solid px rgba(224, 224, 224, 0.75);
 	margin-bottom: 6em;
 	padding: 3.5em;
 }
@@ -2734,6 +2739,7 @@ input[type="button"].small,
 .feature {
 	position: relative;
 	height: 20em;
+	color: black;
 }
 
 .feature:after {
@@ -2747,6 +2753,7 @@ input[type="button"].small,
 .feature h5,
 .feature h6 {
 	text-align: inherit;
+	color: black;
 }
 
 .feature .image {

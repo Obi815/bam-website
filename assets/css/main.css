@@ -2740,6 +2740,7 @@ input[type="button"].small,
 	position: relative;
 	height: 20em;
 	color: black;
+	letter-spacing: 1.5px;
 }
 
 .feature:after {
